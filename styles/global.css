@@ -32,3 +32,13 @@ a {
 img {
   width: 100%;
 }
+
+address {
+  grid-column: 5/6;
+  margin: 0;
+  padding: 0;
+  font-style: normal; /* По умолчанию у <address> шрифт курсив */
+  font-size: inherit; /* Унаследовать размер шрифта родителя */
+  line-height: inherit; /* Унаследовать межстрочный интервал */
+  color: inherit; /* Унаследовать цвет текста */
+}
