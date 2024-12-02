@@ -1,7 +1,6 @@
 /* HEADER */
 
 .header {
-  margin: 0;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1;
@@ -87,7 +86,6 @@
 .cover__text__title-part {
   display: block;
   letter-spacing: 25px;
-  display: block;
 }
 
 .aligned-text {
