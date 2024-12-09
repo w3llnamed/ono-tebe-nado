@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
-
   <body>
     <header class="header">
       <nav class="header__menu">
@@ -18,10 +17,10 @@
             <a class="header__link_active" href="#0">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#">посмотреть лоты</a>
+            <a class="header__link" href="#">посмотреть&nbsp;лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#">об аукционе</a>
+            <a class="header__link" href="#">об&nbsp;аукционе</a>
           </li>
         </ul>
       </nav>
@@ -42,33 +41,47 @@
     </header>
     <main>
       <section class="cover">
-        <div class="overlay">
-          <h1 class="cover__title">
-            <span class="cover__text__title-part aligned-text">
-              <span class="no-letter-spacing">О</span>
-              <span class="no-letter-spacing">н</span>
-              <span class="letter-spacing-extended">о</span>
-            </span>
-            <span class="cover__text__title-part aligned-text_center">
-              <span class="no-letter-spacing">Т</span>
-              <span class="no-letter-spacing">е</span>
-              <span class="no-letter-spacing">б</span>
-              <span class="letter-spacing-extended">e</span>
-            </span>
-            <span class="cover__text__title-part aligned-text_right">
-              <span class="letter-spacing-extended">н</span>
-              <span class="no-letter-spacing">а</span>
-              <span class="no-letter-spacing">д</span>
-              <span class="no-letter-spacing">о</span>
-            </span>
-          </h1>
-          <div class="cover__description">
-            <p class="cover__description-text">
-              Аукцион вещей, в которые никто не верил
-            </p>
-            <button class="bet-button">Сделать ставку</button>
-          </div>
-      </div>
+        <div class="overlay"></div>
+        
+        <h1 class="cover__title">  <!-- Как посмотреть межбуквенный интервал на макете?  ниже закомментированный код, где я попробовал по рекомендованному методу. Так не получается. Прошу пояснить, что я делаю не так-->
+          <!-- <span class="cover__text__title-part aligned-text">
+            <span>О</span>
+            <span class="letter-spacing-extended">но</span>
+          </span>
+          <span class="cover__text__title-part aligned-text_center">
+            <span>Те</span>
+            <span class="letter-spacing-extended">бe</span>
+          </span>
+          <span class="cover__text__title-part aligned-text_right">
+            <span class="letter-spacing-extended">н</span>
+            <span>ад</span>
+            <span class="no-letter-spacing">о</span>
+          </span> -->
+          <span class="cover__text__title-part aligned-text"> 
+            <span class="no-letter-spacing">О</span> 
+            <span class="no-letter-spacing">н</span> 
+            <span class="letter-spacing-extended">о</span> 
+          </span> 
+          <span class="cover__text__title-part aligned-text_center"> 
+            <span class="no-letter-spacing">Т</span> 
+            <span class="no-letter-spacing">е</span> 
+            <span class="no-letter-spacing">б</span> 
+            <span class="letter-spacing-extended">e</span> 
+          </span> 
+          <span class="cover__text__title-part aligned-text_right"> 
+            <span class="letter-spacing-extended">н</span> 
+            <span class="no-letter-spacing">а</span> 
+            <span class="no-letter-spacing">д</span> 
+            <span class="no-letter-spacing">о</span> 
+
+
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
       </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
@@ -76,52 +89,49 @@
           <li class="lots__card-list-item card_type_film">
             <a class="card-link" href="#0">
               <article class="card">
-                <div class="overlay overlay__card">
-                  <h3 class="card__title">
-                    Фильм режиссёра, который бросил киношколу
-                  </h3>
-                  <p class="card__text">
-                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                    ставка, если бы вы не знали, что режиссёр — Пол Томас
-                    Андерсон?
-                  </p>
-                </div>
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
               </article>
             </a>
           </li>
           <li class="lots__card-list-item card_type_book">
             <a class="card-link" href="#0">
               <article class="card">
-                <div class="overlay overlay__card">
-                  <h3 class="card__title">
-                    Книга, где описан один скучный день из жизни рекламного агента
-                  </h3>
-                  <p class="card__text">
-                    Объёмом почти в тысячу страниц. Иногда без знаков препинания и
-                    с переходами на древнеанглийский. В ней одновременно
-                    рассказывается о 16 июня 1904 года и об истории литературы,
-                    начиная с античных времён. И это всё накладывается на
-                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                    Джеймса Джойса?
-                  </p>
-                </div> 
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
               </article>
             </a>
           </li>
           <li class="lots__card-list-item card_type_picture">
             <a class="card-link" href="#0">
               <article class="card">
-                <div class="overlay overlay__card">
-                  <h3 class="card__title">
-                    Картина, которую повторит даже 5-летний сын маминой подруги
-                  </h3>
-                  <p class="card__text">
-                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                    котиков... Сколько бы вы на такое поставили, если бы не знали,
-                    что это — одна из революционных работ Кандинского?
-                  </p>
-                </div>
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
               </article>
             </a>
           </li>
@@ -137,22 +147,25 @@
           />
         </div>
         <article class="about__description">
-        <h2 class="about__description__title">Об аукционе</h2>
-        <p class="about__description__text about__description__text-first">
-          Здесь вы не встретите очередное пафосное собрание невероятно дорогого
-          антиквариата. Наши лоты вообще не должны были попасть ни на один
-          аукцион. Потому что кому нужен дневник девочки-подростка или картина,
-          которую может нарисовать даже ребёнок? Кому нужны все эти странные
-          вещи, созданные любителями?
-        </p>
-        <p class="about__description__text about__description__text-second">
-          Слишком сложные или, наоборот, слишком простые. Опережающие своё
-          время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-          Когда-то они казались просто неудачными. Но, несмотря на критику,
-          кажущуюся простоту или сложность, сейчас без этих лотов невозможно
-          представить современную культуру. Когда в эти вещи не верил никто,
-          продолжали верить их создатели. И сейчас эти лоты стали культовыми.
-        </p>
+          <h2 class="about__description__title">Об аукционе</h2>
+          <div class="about__description__text">
+            <p>
+              Здесь вы не встретите очередное пафосное собрание невероятно
+              дорогого антиквариата. Наши лоты вообще не должны были попасть ни
+              на один аукцион. Потому что кому нужен дневник девочки-подростка
+              или картина, которую может нарисовать даже ребёнок? Кому нужны все
+              эти странные вещи, созданные любителями?
+            </p>
+            <p>
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё
+              время. В пух и прах растерзанные критиками. Непринятые и
+              непонятые. Когда-то они казались просто неудачными. Но, несмотря
+              на критику, кажущуюся простоту или сложность, сейчас без этих
+              лотов невозможно представить современную культуру. Когда в эти
+              вещи не верил никто, продолжали верить их создатели. И сейчас эти
+              лоты стали культовыми.
+            </p>
+          </div>
         </article>
       </section>
     </main>
