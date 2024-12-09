@@ -261,17 +261,16 @@
 }
 
 .card__title {
-  /* position: relative; */
+  position: relative;
   z-index: 1;
   color: white;
   text-transform: uppercase;
   text-decoration: underline;
   font-size: 22px;
-  z-index: 1;
 }
 
 .card__text {
-  /* position: relative; */
+  position: relative;
   z-index: 1;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.8);
