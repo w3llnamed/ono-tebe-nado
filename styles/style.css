@@ -93,7 +93,6 @@
   letter-spacing: 30px;
 }
 
-
 .cover__text__title-part {
   display: block;
   color: white;
@@ -123,46 +122,6 @@
 .no-letter-spacing {
   letter-spacing: 0px;
 }
-
-/* .cover__title {
-  position: relative;
-  z-index: 1;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 100px;
-}
-
-.cover__text__title-part {
-  display: block;
-  color: white;
-  letter-spacing: 6px;
-}
-
-.aligned-text {
-  text-align: left;
-  line-height: 115px;
-  margin-bottom: 15px;
-}
-
-.aligned-text_center {
-  line-height: 110px;
-  margin-bottom: 10px;
-  margin-left: 286px;
-}
-
-.aligned-text_right {
-  text-align: right;
-  line-height: 110px;
-}
-
-.letter-spacing-extended {
-  margin-left: 30px;
-  margin-right: 24px;
-}
-
-.no-letter-spacing {
-  letter-spacing: 0px;
-} */
 
 .cover__description {
   position: relative;
